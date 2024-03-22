@@ -1,0 +1,17 @@
+h1{
+    color : red;
+    font-style: italic ;}
+h2{
+    color : green;
+    text-decoration : underline ; }
+body{
+    background-color:lightgreen;
+}
+p{
+    text-align: justify ;}
+ul,ol{
+    color: gray;
+}
+ul{
+    list-style-type:none;
+}

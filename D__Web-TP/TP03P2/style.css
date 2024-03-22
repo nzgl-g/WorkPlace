@@ -1,0 +1,12 @@
+#menu a{
+    display: block;
+    color: yellow;
+}
+#menu {
+    background-color:silver;
+    width:50px;
+    float:left;
+}
+#contenu {
+    margin-left: 110px;
+}

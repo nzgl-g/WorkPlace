@@ -1,0 +1,46 @@
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<?php
+$A=array();
+$B=array();
+$C=array();
+for ($i=1; $i<= 50; $i++) {
+if ($i%2==0) {
+$A[]=$i;
+}else{
+$B[]=$i;
+}
+
+}
+for ($i=0; $i <sizeof($A) ; $i++) {
+$C[]=$A[$i]+$B[$i];
+}
+echo "<br>";
+echo "****************************************************";
+echo "<table border=1>";
+echo "<tr>";
+echo "<td> A </td>";
+for ($i=0; $i < sizeof($A); $i++) {
+echo "<td>". $A[$i]. "</td> ";
+}
+echo "</tr>";
+echo "<tr>";
+echo "<td> B </td>";
+for ($i=0; $i < sizeof($B); $i++) {
+echo "<td>". $B[$i]. "</td> ";
+}
+echo "</tr>";
+echo "<tr>";
+echo "<td> C </td>";
+for ($i=0; $i < sizeof($C); $i++) {
+echo "<td>". $C[$i]. "</td> ";
+}
+echo "</tr>";
+echo "</table>";
+echo "*****************************************************";
+?>
+</body>
+</html>
